@@ -1,15 +1,18 @@
 To run : <br>
-'''npm i <br>
+'''
+npm install <br>
 cd frontend <br>
-npm i'''
-cd ..
-node dist/server.js
-
+npm install <br>
+npm run build <br>
+cd .. <br>
+node dist/server.js<br>
+'''
+<br><br>
 After making changes: 
-
+'''
 npx tsc
 node dist/server.js
-
+'''
 After making changes in frontend(email-oauth):
 
 cd email-oauth
