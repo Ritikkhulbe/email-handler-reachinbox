@@ -1,7 +1,7 @@
-To run : 
-npm i
-cd email-oauth
-npm i
+To run : <br>
+'''npm i <br>
+cd frontend <br>
+npm i'''
 cd ..
 node dist/server.js
 
