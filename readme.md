@@ -13,6 +13,7 @@ After making changes:
 npx tsc
 node dist/server.js
 ```
+<br><br>
 After making changes in frontend(email-oauth):
 ```
 cd frontend
@@ -20,8 +21,9 @@ npm run build
 cd ..
 node dist/server.js
 ```
-Collection for testing:
-https://www.postman.com/altimetry-candidate-3892980/workspace/assignment/collection/26541602-51e9121d-3394-4b9d-bfb3-d0278843fbd7?action=share&creator=26541602
+<br><br>
+Collection for testing:<br>
+[link of postman collection](https://www.postman.com/altimetry-candidate-3892980/workspace/assignment/collection/26541602-51e9121d-3394-4b9d-bfb3-d0278843fbd7?action=share&creator=26541602)
 
 Due to some reason openai did not accept my only credit card and i couldn't arrange for any other: so i still 
 added the code to ask for promts but then hard coded the mails, I would love to work in ReachInbox ai, 
