@@ -1,25 +1,25 @@
 To run : <br>
-'''
+```
 npm install <br>
 cd frontend <br>
 npm install <br>
 npm run build <br>
 cd .. <br>
 node dist/server.js<br>
-'''
+```
 <br><br>
 After making changes: 
-'''
+```
 npx tsc
 node dist/server.js
-'''
+```
 After making changes in frontend(email-oauth):
-
-cd email-oauth
+```
+cd frontend
 npm run build
 cd ..
 node dist/server.js
-
+```
 Collection for testing:
 https://www.postman.com/altimetry-candidate-3892980/workspace/assignment/collection/26541602-51e9121d-3394-4b9d-bfb3-d0278843fbd7?action=share&creator=26541602
 
