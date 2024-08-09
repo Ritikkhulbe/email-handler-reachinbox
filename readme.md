@@ -5,13 +5,13 @@ cd frontend
 npm install 
 npm run build 
 cd .. 
-node dist/server.js
+npm run server
 ```
 <br><br>
 After making changes: 
 ```
 npx tsc
-node dist/server.js
+npm run server
 ```
 <br><br>
 After making changes in frontend(email-oauth):
@@ -19,7 +19,7 @@ After making changes in frontend(email-oauth):
 cd frontend
 npm run build
 cd ..
-node dist/server.js
+npm run server
 ```
 <br><br>
 Collection for testing:<br>
