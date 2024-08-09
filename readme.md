@@ -8,6 +8,26 @@ cd ..
 npm run server
 ```
 <br><br>
+Add the following to the .env
+```
+PORT=3000
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_REDIRECT_URI=http://localhost:3000/oauth2callback
+
+AZURE_CLIENT_ID=
+AZURE_CLIENT_SECRET=
+AZURE_TENANT_ID=
+OUTLOOK_REDIRECT_URI=http://localhost:3000/oauth2callback/outlook
+
+OPENAI_API_KEY=
+
+REDIS_PORT=6379
+REDIS_HOST=127.0.0.1
+REDIS_PASS=adsaf
+```
+<br><br>
 After making changes: 
 ```
 npx tsc
