@@ -1,11 +1,11 @@
 To run : <br>
 ```
-npm install <br>
-cd frontend <br>
-npm install <br>
-npm run build <br>
-cd .. <br>
-node dist/server.js<br>
+npm install 
+cd frontend 
+npm install 
+npm run build 
+cd .. 
+node dist/server.js
 ```
 <br><br>
 After making changes: 
